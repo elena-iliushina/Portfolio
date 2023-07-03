@@ -141,19 +141,19 @@
 
 
 Сводная таблица исследованных моделей и их метрики на кросс-валидации:
-<img width="727" alt="Screenshot_62" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/72284143-af1d-43c0-9d83-48fef940da97">
+<img width="752" alt="Screenshot_62" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/72284143-af1d-43c0-9d83-48fef940da97">
 
 **4. Тестирование лучшей модели**
 
 По итогам исследования был сделан вывод, что для прогнозирования ухода клиента из компании наиболее подходящей моделью является модель, построенная на алгоритме Градиентного бустинга (Cat Boost Classifier) с глубиной (depth) = 2, количеством итераций (iterations) = 1500 и скоростью обучения (learning_rate) = 0.3.
 
 
-<img width="733" alt="Screenshot_65" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/7d0329dc-bee2-4ec5-9b99-93a7f2942256">
+<img width="752" alt="Screenshot_65" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/7d0329dc-bee2-4ec5-9b99-93a7f2942256">
 
 Итоговое значение качества модели на тестовой выборке AUC-ROC = 0.94, Accuracy = 0.94. Модель характеризуется высоким показателем полноты = 0.68 (min = 0, max = 1), поэтому она с высокой вероятностью предскажет уход клиента из компании. С точки зрения бизнеса полученная модель поможет маркетологам лучше определять клиентов, которые могут уйти в ближайшее время. По матрице ошибок видим, что модель верно определяет положительный класс примерно в двух случаях из трех.
 
-<img width="735" alt="Screenshot_64" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/8ee91e3a-6e56-421b-ab72-c9416238a298">
-<img width="749" alt="Screenshot_63" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/01dbb253-cb6a-4f3c-ad8e-490b33f5ba78">
+<img width="752" alt="Screenshot_64" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/8ee91e3a-6e56-421b-ab72-c9416238a298">
+<img width="752" alt="Screenshot_63" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/01dbb253-cb6a-4f3c-ad8e-490b33f5ba78">
 
 
 Наибольший вклад в обучение модели вносят признаки: количество дней действия договора, ежемесячные траты и тип оплаты. Меньший, но также значимый вклад вносят признаки: метод оплаты, наличие супруга(и), наличие услуг антивируса, резервного копирования данных и параллельных линий.
