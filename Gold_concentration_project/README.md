@@ -86,36 +86,38 @@
     - распределения размеров гранул сырья на обучающей и тестовой выборках имеют схожий характер,
     - суммарная концентрация всех веществ увеличивается после флотации, а к финальному этапу диапазон распределения суммарной концентрации веществ уменьшается.
   
-<br>
 
-<img width="800" alt="Screenshot_83" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/e4184759-66cf-48e4-a7ee-d496c2ffb66a">
-<img width="800" alt="Screenshot_84" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/912bb9f9-d08e-4bf5-9bc0-da6abbc81464">
+    <br>
 
+    <img width="800" alt="Screenshot_83" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/e4184759-66cf-48e4-a7ee-d496c2ffb66a">
+    <img width="800" alt="Screenshot_84" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/912bb9f9-d08e-4bf5-9bc0-da6abbc81464">
 
-<br>
+    <br>
 
-<br>
-
+ <br>
 
 3. В обучении модели участвовали четыре различные алгоритма: Линейная регрессия (Linear Regression), Дерево решений (Decision Tree Regressor), Случайный лес (Random Forest Regressor) и Градиентный бустинг (Cat Boost Regressor). У каждой модели менялись гиперпараметры, чтобы добиться наиболее высокой оценки качества.
 
 
-<br>
+    <br>
 
-<img width="800" alt="Screenshot_85" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/daa65033-51c3-4d12-ae98-8e02940cc344">
+    <img width="800" alt="Screenshot_85" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/daa65033-51c3-4d12-ae98-8e02940cc344">
 
+    <br>
 
-<br>
+ <br>
 
 4. Оценкой качества модели была выбрана метрика sMAPE - симметричное среднее абсолютное процентное отклонение. По итогам исследования был сделан вывод, что для прогнозирования коэффициента восстановления золота из золотосодержащей руды наиболее подходящей моделью является модель, построенная на **алгоритме Градиентного бустинга (Cat Boost Regressor) с глубиной дерева 6 и количеством итераций 1000 для чернового концетрата и глубиной дерева 3 и количеством итераций 500 для финального концетрата при заданной скорости обучения 0.01**.
-  
-5. Итоговое значение качества модели sMAPE на тестовой выборке составляет 8.45. При проверке модели на адекватность сделан вывод, что она показывает лучший результат, чем константная модель.
 
 <br>
+ 
+5. Итоговое значение качества модели sMAPE на тестовой выборке составляет 8.45. При проверке модели на адекватность сделан вывод, что она показывает лучший результат, чем константная модель.
 
-<img width="800" alt="Screenshot_86" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/84a819e1-136a-4a4a-bc6f-c3042312e599">
+    <br>
 
-<img width="800" alt="Screenshot_87" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/4fce6d68-5f53-4551-92c6-7b910395d9d5">
+    <img width="800" alt="Screenshot_86" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/84a819e1-136a-4a4a-bc6f-c3042312e599">
+
+    <img width="800" alt="Screenshot_87" src="https://github.com/elena-iliushina/Portfolio/assets/133641038/4fce6d68-5f53-4551-92c6-7b910395d9d5">
 
 
 
